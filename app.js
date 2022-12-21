@@ -7,3 +7,4 @@ console.log(days0fweek);
 days0fweek.push("sun");
 
 console.log(days0fweek);
+
