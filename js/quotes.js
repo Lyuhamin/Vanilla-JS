@@ -1,4 +1,4 @@
-const quote = [
+const quotes = [
 {
     quote: "A living dog is better than a dead lion",
     author: "WooWakGood",
@@ -39,4 +39,9 @@ const quote = [
     quote: "We can draw lessons from the past, but we cannot live in it.",
     author: "Lyndon B. Johnson",
 },
-]
+];
+
+const quote = document.querySelector("#quote span:first-child");
+const author = document.querySelector("#quote span:last-child");
+
+console.log(quotes[0]);
