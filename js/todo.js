@@ -4,7 +4,7 @@ const toDoList = document.getElementById("todo-list");
 
 const TODOS_KEY = "todos";
 
-let toDos = []
+let toDos = [];
 
 function saveToDos() {
     localStorage.setItem(TODOS_KEY, JSON.stringify(toDos));
@@ -35,7 +35,7 @@ function handleToDoSubmit(event) {
     const newTodo = toDoInput.value;
     toDoInput.value = "";
     const newTodoObj = {
-        Text:newTodo,
+        text:newTodo,
         id: Date.now(),
     };
     toDos.push(newTodoObj);
